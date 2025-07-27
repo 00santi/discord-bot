@@ -104,7 +104,7 @@ class MenuView(discord.ui.View):
 async def dropdown(ctx):
     await ctx.send(view=MenuView())
 
-@bot.command(name="mute", aliases=["mutecommand", "timeout", "mutethomas"])
+@bot.command(name="mute", aliases=["mutecommand", "timeout"])
 async def mute(ctx):
     guild = ctx.guild
     target1 = guild.get_member(1209457903602237442)
@@ -138,8 +138,8 @@ async def mute(ctx):
 async def help(ctx):
     help_text = """
 `&help` - show this help message
-`&mute` - mute thomas for 1 minute
-`&n` or `&gif` - thomas yapping about gif
+`&mute` - mute bigt for 1 minute
+`&n` or `&gif` - bigt yapping about gif
 `&website` - get eternal academy website
 `&lemur` - lemur
 """
