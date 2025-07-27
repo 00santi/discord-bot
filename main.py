@@ -138,7 +138,7 @@ async def mute(ctx):
 async def help(ctx):
     help_text = """
 `&help` - show this help message
-`&mute` - mute thomas 1 minute
+`&mute` - mute thomas for 1 minute
 `&n` or `&gif` - thomas yapping about gif
 `&website` - get eternal academy website
 `&lemur` - lemur
